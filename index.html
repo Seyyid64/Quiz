@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebDev-Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Herausforderung - Javascript Quiz</h1>
+            <h3>Der Webdev Grundlagen Test</h3>
+        </header>
+        <form name="quizForm" onsubmit="return submitAnswers()">
+            <div class="ersteFrage">
+                <h2>1. Wofür steht das H1 Tag?</h2>
+                <input type="radio" name="aEins" value="a">große Überschrift<br>
+                <input type="radio" name="aEins" value="b">fett gedruckt<br>
+                <input type="radio" name="aEins" value="c">durchgestrichen<br>
+                <input type="radio" name="aEins" value="d">kleine Überschrift<br>    
+            </div>
+            <div class="zweiteFrage">
+                <h2>2. Wofür steht CSS</h2>
+                <input type="radio" name="aZwei" value="a">Case Sensitive Stuff<br>
+                <input type="radio" name="aZwei" value="b">Cereals Sweet Sugar<br>
+                <input type="radio" name="aZwei" value="c">Cascading Style Sheet<br>
+                <input type="radio" name="aZwei" value="d">Customer Service Support<br>
+            </div> 
+            <div class="dritteFrage">
+                <h2>3. Wie verwendet man einen Hinweis in JS?</h2>
+                <input type="radio" name="aDrei" value="a">alert<br>
+                <input type="radio" name="aDrei" value="b">popup<br>
+                <input type="radio" name="aDrei" value="c">document.write<br>
+
+            </div>
+            <div class="vierteFrage">
+                <h2>4. Javascript ist eine Scriptsprache</h2>
+                <input type="radio" name="aVier" value="a">Richtig<br>
+                <input type="radio" name="aVier" value="b">Falsch<br>
+            </div>
+            <div>
+                <input type="submit" value="Antwort abschicken">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
